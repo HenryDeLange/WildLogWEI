@@ -35,7 +35,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>wildlog.wei.WildLogAppWEI</mainClass>
+                            <mainClass>wildlog.wei.WildLogAppWEIVolunteer</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
