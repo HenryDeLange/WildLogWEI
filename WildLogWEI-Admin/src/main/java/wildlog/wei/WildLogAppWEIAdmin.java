@@ -2,17 +2,21 @@ package wildlog.wei;
 
 import org.apache.logging.log4j.Level;
 import wildlog.WildLogApp;
+import wildlog.data.enums.WildLogUserTypes;
 import wildlog.utils.WildLogApplicationTypes;
 
 /**
  * The main class of the application.
  */
-public class WildLogAppWEI extends WildLogApp {
+public class WildLogAppWEIAdmin extends WildLogApp {
     public final static String WILDLOG_WEI_ADMIN_VERSION = "0.0.1";
     
-    // Stick to the default WildLog application framework
     public static void main(String[] args) {
-        WILDLOG_TYPE = WildLogApplicationTypes.WILDLOG_WEI_ADMIN;
+        WILDLOG_APPLICATION_TYPE = WildLogApplicationTypes.WILDLOG_WEI_ADMIN;
+        WILDLOG_USER_NAME = "WildLogAdmin";
+        WILDLOG_USER_TYPE = WildLogUserTypes.ADMIN;
+        WILDLOG_VERSION = WILDLOG_VERSION + "_" + WILDLOG_WEI_ADMIN_VERSION;
+        // Stick to the default WildLog application framework
         WildLogApp.main(args);
         WildLogApp.LOGGER.log(Level.INFO, "WildLogWEI-Admin Version: {}", WILDLOG_WEI_ADMIN_VERSION);
     }
