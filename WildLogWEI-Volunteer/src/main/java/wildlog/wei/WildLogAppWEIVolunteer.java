@@ -16,8 +16,7 @@ public class WildLogAppWEIVolunteer extends WildLogApp {
         WILDLOG_USER_NAME = "WildLogVolunteer";
         WILDLOG_USER_TYPE = WildLogUserTypes.VOLUNTEER;
         WILDLOG_VERSION = WILDLOG_VERSION + "_" + WILDLOG_WEI_VOLUNTEER_VERSION;
-        // Use the default WildLog application framework, but with the custom volunteer view
-        WildLogApp.setViewClass(WildLogViewWEIVolunteer.class);
+        // Stick to the default WildLog application framework
         WildLogApp.main(args);
         WildLogApp.LOGGER.log(Level.INFO, "WildLogWEI-Volunteer Version: {}", WILDLOG_WEI_VOLUNTEER_VERSION);
     }
