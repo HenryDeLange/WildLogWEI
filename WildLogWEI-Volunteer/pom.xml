@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>mywild.wei</groupId>
     <artifactId>WildLogWEI-Volunteer</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
     
     <properties>
@@ -17,7 +17,7 @@
         <dependency>
             <groupId>mywild</groupId>
             <artifactId>WildLog</artifactId>
-            <version>6.0.5</version>
+            <version>6.0.6</version>
         </dependency>
         <!--Third Party-->
         
