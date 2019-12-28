@@ -3,13 +3,14 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>mywild.wei</groupId>
     <artifactId>WildLogWEI-Volunteer</artifactId>
-    <version>1.0.1</version>
+    <version>1.1.0</version>
     <packaging>jar</packaging>
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>13</maven.compiler.source>
+        <maven.compiler.target>13</maven.compiler.target>
+        <maven.compiler.release>13</maven.compiler.release>
     </properties>
     
     <dependencies>
@@ -17,7 +18,12 @@
         <dependency>
             <groupId>mywild</groupId>
             <artifactId>WildLog</artifactId>
-            <version>6.0.6</version>
+            <version>6.1.0.beta</version>
+        </dependency>
+        <dependency>
+            <groupId>mywild.wei</groupId>
+            <artifactId>WildLogWEI-Admin</artifactId>
+            <version>1.1.0</version>
         </dependency>
         <!--Third Party-->
         
@@ -29,7 +35,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>3.1.1</version>
+                <version>3.2.0</version>
                 <configuration>
                     <archive>
                         <manifest>
@@ -43,6 +49,7 @@
             <!--Copy dependencies to target/lib folder-->
             <plugin>
                 <artifactId>maven-dependency-plugin</artifactId>
+                <version>3.1.1</version>
                 <executions>
                     <execution>
                         <phase>install</phase>
