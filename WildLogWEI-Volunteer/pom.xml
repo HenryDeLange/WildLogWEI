@@ -18,7 +18,7 @@
         <dependency>
             <groupId>mywild</groupId>
             <artifactId>WildLog</artifactId>
-            <version>6.1.0</version>
+            <version>6.1.1</version>
         </dependency>
         <dependency>
             <groupId>mywild.wei</groupId>
