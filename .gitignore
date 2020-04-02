@@ -2,3 +2,6 @@
 /WildLogWEI-Admin/AppProperties/WildLogSettings
 /WildLogWEI-Volunteer/target/
 /WildLogWEI-Volunteer/AppProperties/WildLogSettings
+/WildLogWEI-Remote/target/
+/WildLogWEI-Remote/AppProperties/WildLogSettings/
+/WildLogWEI-Remote/nbactions.xml
