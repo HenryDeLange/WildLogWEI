@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>mywild.wei</groupId>
-    <artifactId>WildLogWEI-Admin</artifactId>
+    <artifactId>WildLogWEI-Remote</artifactId>
     <version>1.1.0</version>
     <packaging>jar</packaging>
     
@@ -20,6 +20,11 @@
             <artifactId>WildLog</artifactId>
             <version>6.2.0</version>
         </dependency>
+        <dependency>
+            <groupId>mywild.wei</groupId>
+            <artifactId>WildLogWEI-Admin</artifactId>
+            <version>1.1.0</version>
+        </dependency>
         <!--Third Party-->
         
     </dependencies>
@@ -36,7 +41,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>wildlog.wei.WildLogAppWEIAdmin</mainClass>
+                            <mainClass>wildlog.wei.WildLogAppWEIRemote</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

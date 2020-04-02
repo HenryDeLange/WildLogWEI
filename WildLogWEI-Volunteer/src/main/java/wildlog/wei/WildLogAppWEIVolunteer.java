@@ -7,7 +7,7 @@ import wildlog.data.enums.system.WildLogUserTypes;
 import wildlog.utils.WildLogApplicationTypes;
 
 public class WildLogAppWEIVolunteer extends WildLogApp {
-    public final static String WILDLOG_WEI_VOLUNTEER_VERSION = "1.1.0";
+    private final static String WILDLOG_WEI_VOLUNTEER_VERSION = "1.1.0";
     
     public static void main(String[] args) {
         WILDLOG_APPLICATION_TYPE = WildLogApplicationTypes.WILDLOG_WEI_VOLUNTEER;
