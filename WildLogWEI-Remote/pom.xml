@@ -8,18 +8,18 @@
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>14</maven.compiler.source>
-        <maven.compiler.target>14</maven.compiler.target>
-        <maven.compiler.release>14</maven.compiler.release>
+        <maven.compiler.source>15</maven.compiler.source>
+        <maven.compiler.target>15</maven.compiler.target>
+        <maven.compiler.release>15</maven.compiler.release>
     </properties>
     
     <dependencies>
         <!--MyWild-->
-        <dependency>
+<!--        <dependency>
             <groupId>mywild</groupId>
             <artifactId>WildLog</artifactId>
-            <version>6.2.0</version>
-        </dependency>
+            <version>6.2.1</version>
+        </dependency>-->
         <dependency>
             <groupId>mywild.wei</groupId>
             <artifactId>WildLogWEI-Admin</artifactId>
